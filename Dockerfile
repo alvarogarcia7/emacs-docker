@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.16
 RUN apk add --no-cache emacs bash git make
 ENV HOME /home
 COPY emacs_evil ${HOME}/.emacs.d/evil
