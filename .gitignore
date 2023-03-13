@@ -1,2 +1,5 @@
 scheme/**
 **/.DS_Store
+
+.docker/
+
