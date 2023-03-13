@@ -9,6 +9,8 @@ build:
 run:
 	docker run -v "${PWD}/scheme:${HOME}/workspace" -it ${CONTAINER_TAG} 
 
+bash: run
+
 save:
 	cd scheme && git add . && git commit --all -m "save"
 
