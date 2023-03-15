@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  doom:
+    image: emacs-container
+    tty: true
+    volumes:
+      - "${PWD}/scheme:${PWD}/workspace"
+    # do not include a command
