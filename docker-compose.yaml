@@ -5,5 +5,5 @@ services:
     image: emacs-container
     tty: true
     volumes:
-      - "${PWD}/scheme:${PWD}/workspace"
+      - "${PWD}/scheme:/home/org"
     # do not include a command
