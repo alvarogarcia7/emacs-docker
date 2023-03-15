@@ -6,7 +6,7 @@ all: build run
 
 build:
 	docker build -t ${CONTAINER_TAG} .
-run:
+run: up
 	docker-compose exec doom bash
 up:
 	docker-compose up -d
