@@ -8,6 +8,8 @@ build:
 	docker build -t ${CONTAINER_TAG} .
 run: up
 	docker-compose exec doom /home/.config/emacs/bin/doom run
+	$(MAKE) save
+
 up:
 	docker-compose up -d
 
