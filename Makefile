@@ -9,6 +9,7 @@ build:
 run: up
 	docker-compose exec doom /home/.config/emacs/bin/doom run
 	$(MAKE) save
+	$(MAKE) show-diff-save
 
 up:
 	docker-compose up -d
@@ -17,4 +18,7 @@ bash: run
 
 save:
 	cd org && git add . && git commit --all -m "save"
+
+show-diff-save:
+	cd org && git log -n1 -p
 
