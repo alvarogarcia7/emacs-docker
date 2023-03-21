@@ -16,5 +16,5 @@ up:
 bash: run
 
 save:
-	cd scheme && git add . && git commit --all -m "save"
+	cd org && git add . && git commit --all -m "save"
 
