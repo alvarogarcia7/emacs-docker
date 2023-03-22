@@ -1,4 +1,4 @@
-This repo is a fork of git@github.com:nithishdivakar/emacs-docker.git
+This repo is a fork of https://github.com/nithishdivakar/emacs-docker
 
 # emacs-docker
 Emacs with org mode and evil mode inside a docker 
