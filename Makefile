@@ -1,5 +1,5 @@
 
-CONTAINER_TAG=emacs-container
+CONTAINER_TAG=emacs-container_devel
 HOME=${PWD}
 
 all: build run
