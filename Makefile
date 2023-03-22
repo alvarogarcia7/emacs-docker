@@ -14,7 +14,8 @@ run: up
 up:
 	docker-compose up -d
 
-bash: run
+bash:
+	docker-compose exec doom bash
 
 save:
 	cd org && git add . && git commit --all -m "save"
