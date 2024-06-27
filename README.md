@@ -1,3 +1,11 @@
+## 2024-06-27 11:24:22 AGB
+
+# This repo is deprecated
+
+I am using doom in local (installed on the host) instead of docker
+
+## Previous contents
+
 This repo is a fork of https://github.com/nithishdivakar/emacs-docker
 
 # emacs-docker
