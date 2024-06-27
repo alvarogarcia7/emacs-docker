@@ -13,3 +13,11 @@ storage inside the container
 
 Code of evil mode is from https://github.com/emacs-evil/evil
 
+2024-06-14 13:59:27 AGB
+
+I couldn't build the docker image from the dockerfile, because the cloning of `emacs-undo-fu` fails. Inside docker, it works:
+
+1. Comment the installation
+2. docker run #(base)
+3. install manually
+4. commit the running container to an image: https://www.dataset.com/blog/create-docker-image/
